@@ -11,7 +11,7 @@ nav {
 }
 
 .nav__logo {
-	width: 180px;
+	width: clamp(90px, 100%, 180px);
 }
 
 .nav__text {
@@ -23,11 +23,11 @@ nav {
 	font-size: 1em;
 
 	h1 {
-		font-size: 3em;
+		font-size: 1.5em;
 	}
 
 	h6 {
-		font-size: 1em;
+		font-size: 0.8em;
 		max-width: max(60%, 400px);
 	}
 }

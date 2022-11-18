@@ -31,7 +31,9 @@ const Navbar = () => {
 					</Link>
 				</div>
 				<div className='nav__text'>
-					<h1>Women in Tech</h1>
+					<h1>
+						Xilinx Women in Technology Grant Project - Spring 2021
+					</h1>
 					<h6>
 						A graphical user interface (GUI) that is built on the
 						Web and used to communicate with the Breast Cancer
