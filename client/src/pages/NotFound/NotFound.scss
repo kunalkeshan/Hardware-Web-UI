@@ -1,0 +1,28 @@
+.notFound__container {
+	flex: 1;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.notFound__animation {
+	width: clamp(200px, 80%, 400px);
+}
+
+.notFound__button {
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	border: none;
+	padding: 0.75em 1em;
+	cursor: pointer;
+	font-weight: 500;
+	font-family: 'Roboto Slab';
+	transition: all 100ms ease-in-out;
+}
+
+.notFound__button:hover {
+	transform: scale(1.1);
+}

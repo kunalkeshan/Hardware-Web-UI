@@ -1,0 +1,33 @@
+nav {
+	width: 100%;
+	padding: 1em;
+
+	.app__container {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		margin: 0 auto;
+	}
+}
+
+.nav__logo {
+	width: 180px;
+}
+
+.nav__text {
+	text-align: right;
+	font-family: 'Roboto Slab';
+	display: flex;
+	flex-direction: column;
+	align-items: flex-end;
+	font-size: 1em;
+
+	h1 {
+		font-size: 3em;
+	}
+
+	h6 {
+		font-size: 1em;
+		max-width: max(60%, 400px);
+	}
+}

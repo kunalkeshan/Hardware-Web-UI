@@ -1,0 +1,169 @@
+.imageKit__container {
+	min-height: 100%;
+	border-radius: 2px;
+	position: relative;
+
+	> * {
+		background-color: #d9d9d9;
+		width: 80%;
+		margin: 0 auto;
+	}
+}
+
+.imageKit__animationContainer {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.imageKit__animation {
+		width: clamp(200px, 80%, 320px);
+		margin: 0 auto;
+		height: auto;
+	}
+
+	p {
+		font-size: 1rem;
+		font-weight: 500;
+	}
+}
+
+.imageKit__controls {
+	padding: 0.5em 1em;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	.imageKit__controls--top {
+		display: flex;
+		justify-content: space-between;
+		width: 100%;
+	}
+
+	p {
+		font-weight: 500;
+		font-size: 0.6rem;
+		user-select: none;
+	}
+
+	#runModelBtn {
+		background-color: transparent;
+		border: none;
+
+		&.running {
+			animation: load-rotate 2s infinite forwards;
+		}
+
+		img {
+			width: 40px;
+		}
+
+		&:hover {
+			filter: drop-shadow(0 0 5px #222);
+			cursor: pointer;
+		}
+
+		&:disabled {
+			filter: none;
+			opacity: 0.6;
+			cursor: default;
+		}
+	}
+}
+
+.imageKit__image {
+	display: flex;
+	justify-content: center;
+
+	#imageKit__imageBox {
+		position: relative;
+		border-radius: 4px;
+		width: clamp(200px, 100%, 400px);
+		margin: 1em 2em;
+		min-height: fit-content;
+		max-height: 400px;
+		overflow: hidden;
+
+		img {
+			object-fit: contain;
+			width: 100%;
+			height: 100%;
+			cursor: grab;
+			z-index: 8;
+			position: relative;
+			overflow: hidden;
+
+			&:active {
+				cursor: grabbing;
+			}
+		}
+	}
+}
+
+.imageKit__upload {
+	padding: 2em;
+
+	#uploadImageBtn {
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+		background-color: #ffffff;
+		text-transform: capitalize;
+		padding: 1em 2em;
+		cursor: pointer;
+		border: none;
+		border-radius: 4px;
+		font-weight: 500;
+		font-size: 1rem;
+		font-style: inherit;
+		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+			rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+		transition: all 100ms ease-in-out;
+
+		input {
+			display: none;
+		}
+
+		&:hover {
+			background-color: #f0eeee;
+		}
+	}
+}
+
+.zoomControl__container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	background-color: transparent;
+	width: 100%;
+
+	button {
+		background-color: transparent;
+		border: none;
+		font-family: inherit;
+		cursor: pointer;
+		font-size: 0.8rem;
+		transition: all 100ms ease-in-out;
+
+		&:hover {
+			font-weight: bold;
+		}
+	}
+}
+
+@keyframes load-rotate {
+	0% {
+		transform: rotate(0deg);
+	}
+	25% {
+		transform: rotate(90deg);
+	}
+	50% {
+		transform: rotate(80deg);
+	}
+	75% {
+		transform: rotate(170deg);
+	}
+	100% {
+		transform: rotate(160deg);
+	}
+}

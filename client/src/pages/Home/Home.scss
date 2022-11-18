@@ -1,0 +1,13 @@
+.home__container {
+	flex: 1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: min(100%, 1600px);
+	padding: 1em;
+	min-height: 100%;
+
+	.home__child {
+		width: 50%;
+	}
+}
