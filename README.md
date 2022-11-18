@@ -41,6 +41,12 @@ Verify that all software and hardware prerequisites have been installed on your 
 - Python *\** - [https://www.python.org/downloads/](https://www.python.org/downloads/)
 - Ngrok *\** - [https://ngrok.com/download](https://ngrok.com/download)
 - Node.js (optional) - [https://nodejs.org/en/download/](https://nodejs.org/en/download/)
+- File/s Setup */(optional) - [https://drive.google.com/drive/folders/1Sl2l4uWqLrOUJjuUKNSgBb98kMr_Tj0Y](https://drive.google.com/drive/folders/1Sl2l4uWqLrOUJjuUKNSgBb98kMr_Tj0Y)
+
+| Weighted `.h5` * | Data Set (optional) |
+| :---: | :---: |
+| | |
+| Required to be present in the project root as `trained.h5`. | If you wish to create your own weighted pretrained model, you'll need to use this data set to get started. |
 
 ### Clone this Repository
 
