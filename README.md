@@ -45,7 +45,7 @@ Verify that all software and hardware prerequisites have been installed on your 
 
 | Weighted `.h5` * | Data Set (optional) |
 | :---: | :---: |
-| | |
+| ![Download Trained File](./assets/downloaded-weigheted-file.jpg) | ![Download Data Set](./assets/downloaded-data-set.jpg)|
 | Required to be present in the project root as `trained.h5`. | If you wish to create your own weighted pretrained model, you'll need to use this data set to get started. |
 
 ### Clone this Repository
