@@ -13,7 +13,7 @@ import sys
 from fastapi.logger import logger
 from pydantic import BaseSettings
 from dotenv import load_dotenv
-from pyngrok import ngrok, conf, installer
+# from pyngrok import ngrok, conf, installer
 import ssl
 
 load_dotenv()
@@ -69,36 +69,36 @@ def init_webhooks(base_url):
     pass
 
 
-if settings.USE_NGROK:
+# if settings.USE_NGROK:
 
-    if len(ngrok.get_tunnels()) > 0:
-        for ngrok_tunnel in ngrok.get_tunnels():
-            ngrok.disconnect(ngrok_tunnel.public_url)
+#     if len(ngrok.get_tunnels()) > 0:
+#         for ngrok_tunnel in ngrok.get_tunnels():
+#             ngrok.disconnect(ngrok_tunnel.public_url)
 
-    pyngrok_config = conf.PyngrokConfig(auth_token=settings.NGROK_AUTH_TOKEN)
-    conf.set_default(pyngrok_config)
-    pyngrok_config = conf.get_default()
+#     pyngrok_config = conf.PyngrokConfig(auth_token=settings.NGROK_AUTH_TOKEN)
+#     conf.set_default(pyngrok_config)
+#     pyngrok_config = conf.get_default()
 
-    if not os.path.exists(pyngrok_config.ngrok_path):
-        myssl = ssl.create_default_context()
-        myssl.check_hostname = False
-        myssl.verify_mode = ssl.CERT_NONE
-        installer.install_ngrok(pyngrok_config.ngrok_path, context=myssl)
+#     if not os.path.exists(pyngrok_config.ngrok_path):
+#         myssl = ssl.create_default_context()
+#         myssl.check_hostname = False
+#         myssl.verify_mode = ssl.CERT_NONE
+#         installer.install_ngrok(pyngrok_config.ngrok_path, context=myssl)
 
-    # Get the dev server port (defaults to 8000 for Uvicorn, can be overridden with `--port`
-    # when starting the server
-    port = sys.argv[sys.argv.index(
-        "--port") + 1] if "--port" in sys.argv else 8000
+#     # Get the dev server port (defaults to 8000 for Uvicorn, can be overridden with `--port`
+#     # when starting the server
+#     port = sys.argv[sys.argv.index(
+#         "--port") + 1] if "--port" in sys.argv else 8000
 
-    # Open a ngrok tunnel to the dev server
-    public_url = ngrok.connect(port).public_url
-    logger.info(
-        "ngrok tunnel \"{}\" -> \"http://127.0.0.1:{}\"".format(public_url, port))
+#     # Open a ngrok tunnel to the dev server
+#     public_url = ngrok.connect(port).public_url
+#     logger.info(
+#         "ngrok tunnel \"{}\" -> \"http://127.0.0.1:{}\"".format(public_url, port))
 
-    # Update any base URLs or webhooks to use the public ngrok URL
-    settings.BASE_URL = public_url
-    init_webhooks(public_url)
-    print(settings.BASE_URL)
+#     # Update any base URLs or webhooks to use the public ngrok URL
+#     settings.BASE_URL = public_url
+#     init_webhooks(public_url)
+#     print(settings.BASE_URL)
 
 if __name__ == "__main__" and settings.ENVIRONMENT == 'Development':
     uvicorn.run("main:app", host=settings.HOST,
