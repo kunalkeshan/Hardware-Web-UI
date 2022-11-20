@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.0a931005.css",
-    "main.js": "/static/js/main.f216f87a.js",
+    "main.js": "/static/js/main.cc172375.js",
     "static/js/787.c0de9bfb.chunk.js": "/static/js/787.c0de9bfb.chunk.js",
     "static/media/brain-mind-nobg.gif": "/static/media/brain-mind-nobg.6a9b0dea99379f0e85bf.gif",
     "static/media/Raleway-VariableFont_wght.ttf": "/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
@@ -11,11 +11,11 @@
     "static/media/srmist-logo.png": "/static/media/srmist-logo.ef20ca5b100fef2315d8.png",
     "index.html": "/index.html",
     "main.0a931005.css.map": "/static/css/main.0a931005.css.map",
-    "main.f216f87a.js.map": "/static/js/main.f216f87a.js.map",
+    "main.cc172375.js.map": "/static/js/main.cc172375.js.map",
     "787.c0de9bfb.chunk.js.map": "/static/js/787.c0de9bfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0a931005.css",
-    "static/js/main.f216f87a.js"
+    "static/js/main.cc172375.js"
   ]
 }

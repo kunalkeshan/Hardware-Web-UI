@@ -36,16 +36,8 @@ const DataControl = () => {
 			label: 'Modality',
 		},
 		{
-			value: 'ct-scan',
-			label: 'CT Scan',
-		},
-		{
-			value: 'mri',
-			label: 'MRI',
-		},
-		{
-			value: 'usg',
-			label: 'USG',
+			value: 'mammogram',
+			label: 'Mammogram',
 		},
 	];
 
