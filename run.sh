@@ -7,6 +7,6 @@ if [[ -z "$authtoken" ]]; then
     echo "Cannot boot application without ngrok authtoken, try again"
     exit
 else
-    python main.py
-    ngrok http 8000 $authtoken 
+    ngrok config add-authtoken $authtoken
+    python main.py & ngrok http 8000
 fi
