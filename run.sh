@@ -1,2 +1,4 @@
+#! /usr/bin/sh
 python main.py
-# ngrok http 8000 --authtoken 
+echo authtoken
+ngrok http 8000 $authtoken 
