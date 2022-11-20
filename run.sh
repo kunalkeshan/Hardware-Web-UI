@@ -8,7 +8,6 @@ fi
 
 read -p "Enter ngrok authtoken - " authtoken
 
-
 if [[ -z "$authtoken" ]]; then
     echo "Cannot boot application without ngrok authtoken, try again"
     exit

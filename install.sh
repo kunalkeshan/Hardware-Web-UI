@@ -4,10 +4,10 @@ read -p "Install dependencies for, 'prod' or 'dev' - " env
 
 if [[ "$env" == "prod" ]]; then
     echo "Installing dependencies from production.txt..."
-    pip3 install -r production.txt
+    pip install -r production.txt
 else
     echo "Installing dependencies from requirements.txt..."
-    pip3 install -r requirements.txt
+    pip install -r requirements.txt
 fi
 
 if ! command -v ngrok &> /dev/null
