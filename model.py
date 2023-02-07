@@ -26,7 +26,7 @@ birads = {
     },
     'b5': {
         'name': 'BI-RADS 5',
-        'comments': ('Malignant spiculated or irregular mass',  'High density',  'Fine linear or linear branching segmental calcifications')
+        'comments': ('Malignant speculated or irregular mass',  'High density',  'Fine linear or linear branching segmental calcifications')
     },
 }
 
