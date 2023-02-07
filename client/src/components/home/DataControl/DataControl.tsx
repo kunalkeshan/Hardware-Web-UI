@@ -39,6 +39,10 @@ const DataControl = () => {
 			value: 'mammogram',
 			label: 'Mammogram',
 		},
+		{
+			value: 'ultrasound-and-mri',
+			label: 'Ultrasound & MRI',
+		},
 	];
 
 	const handleSelectChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
