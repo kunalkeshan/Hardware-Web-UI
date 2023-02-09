@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.0a931005.css",
-    "main.js": "/static/js/main.cc172375.js",
+    "main.css": "/static/css/main.3e6e79ad.css",
+    "main.js": "/static/js/main.96feff7e.js",
     "static/js/787.c0de9bfb.chunk.js": "/static/js/787.c0de9bfb.chunk.js",
     "static/media/brain-mind-nobg.gif": "/static/media/brain-mind-nobg.6a9b0dea99379f0e85bf.gif",
     "static/media/Raleway-VariableFont_wght.ttf": "/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
     "static/media/RobotoSlab-VariableFont_wght.ttf": "/static/media/RobotoSlab-VariableFont_wght.24c71ebd53c3ed50accb.ttf",
-    "static/media/nexus-logo.png": "/static/media/nexus-logo.29958d16f2b5d7665c64.png",
+    "static/media/srmist-logo.png": "/static/media/srmist-logo.376c7749148e69dfa2a2.png",
+    "static/media/nexus-logo.png": "/static/media/nexus-logo.a7bd6be5183c9bf944ec.png",
     "static/media/execute.png": "/static/media/execute.2e4ece740ae5c4547db0.png",
-    "static/media/srmist-logo.png": "/static/media/srmist-logo.ef20ca5b100fef2315d8.png",
     "index.html": "/index.html",
-    "main.0a931005.css.map": "/static/css/main.0a931005.css.map",
-    "main.cc172375.js.map": "/static/js/main.cc172375.js.map",
+    "main.3e6e79ad.css.map": "/static/css/main.3e6e79ad.css.map",
+    "main.96feff7e.js.map": "/static/js/main.96feff7e.js.map",
     "787.c0de9bfb.chunk.js.map": "/static/js/787.c0de9bfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0a931005.css",
-    "static/js/main.cc172375.js"
+    "static/css/main.3e6e79ad.css",
+    "static/js/main.96feff7e.js"
   ]
 }
