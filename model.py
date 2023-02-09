@@ -10,23 +10,23 @@ class_name = ('b1', 'b2', 'b3', 'b4', 'b5')
 birads = {
     'b1': {
         'name': 'BI-RADS 1',
-        'comments':  ('Negative')
+        'comments':  ['Negative']
     },
     'b2': {
         'name': 'BI-RADS 2',
-        'comments': ('Benign')
+        'comments': ['Benign']
     },
     'b3': {
         'name': 'BI-RADS 3',
-        'comments': ('Probably Benign')
+        'comments': ['Probably Benign']
     },
     'b4': {
         'name': 'BI-RADS 4',
-        'comments': ('Suspicious')
+        'comments': ['Suspicious']
     },
     'b5': {
         'name': 'BI-RADS 5',
-        'comments': ('Highly Susceptive of Malignancy')
+        'comments': ['Highly Susceptive of Malignancy']
     },
 }
 
