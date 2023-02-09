@@ -1,13 +1,15 @@
 .home__container {
 	flex: 1;
-	display: flex;
-	align-items: center;
-	justify-content: center;
+	display: grid;
+	grid-template-columns: auto auto;
+	place-items: center;
+	margin: 0 auto;
 	width: min(100%, 1600px);
 	padding: 1em;
 	min-height: 100%;
 
 	.home__child {
-		width: 50%;
+		width: clamp(520px, 100%, 640px);
+		height: 100%;
 	}
 }

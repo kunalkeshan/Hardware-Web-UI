@@ -10,23 +10,23 @@ class_name = ('b1', 'b2', 'b3', 'b4', 'b5')
 birads = {
     'b1': {
         'name': 'BI-RADS 1',
-        'comments':  ('no finding is present in an imaging modality (not even a benign finding)', 'there is nothing to comment on',  'a normal examination')
+        'comments':  ('Negative')
     },
     'b2': {
         'name': 'BI-RADS 2',
-        'comments': ('is a benign category',  'A finding placed in this category should have a 100% chance of being benign', 'The lesion can be one among the following, calcified fibroadenomas, multiple secretory calcifications, fat-containing lesions such as oil cysts, breast lipomas, galactoceles, mixed density hamartomas, cutaneous neurofibromas,  intramammary lymph nodes, breast sebaceous cysts, simple breast cysts, breast implants')
+        'comments': ('Benign')
     },
     'b3': {
         'name': 'BI-RADS 3',
-        'comments': ('A finding placed in this category is considered probably benign', ' With a risk of malignancy of > 0% and ≤ 2%4',  'Grouped round calcifications',  'Circumscribed, round or oval mass without calcification',  'Focal asymmetry without calcification or architectural distortion')
+        'comments': ('Probably Benign')
     },
     'b4': {
         'name': 'BI-RADS 4',
-        'comments': ('Suspicious for malignancy with 2-94% probability of malignancy', 'BI-RADS 4 lesions may not have the characteristic morphology of breast cancer but have a definite probability of being malignant', 'A biopsy is recommended for these lesions')
+        'comments': ('Suspicious')
     },
     'b5': {
         'name': 'BI-RADS 5',
-        'comments': ('Malignant speculated or irregular mass',  'High density',  'Fine linear or linear branching segmental calcifications')
+        'comments': ('Highly Susceptive of Malignancy')
     },
 }
 

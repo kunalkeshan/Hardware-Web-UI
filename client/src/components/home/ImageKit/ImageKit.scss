@@ -1,11 +1,15 @@
 .imageKit__container {
 	min-height: 100%;
-	border-radius: 2px;
+	overflow: hidden;
 	position: relative;
+	background-color: #808080;
+	border-radius: 8px;
+	border: 2px solid white;
+	padding: 1em 2em;
 
 	> * {
-		background-color: #d9d9d9;
-		width: 80%;
+		color: white;
+		width: 100%;
 		margin: 0 auto;
 	}
 }
@@ -118,6 +122,7 @@
 		box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
 			rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
 		transition: all 100ms ease-in-out;
+		color: black;
 
 		input {
 			display: none;

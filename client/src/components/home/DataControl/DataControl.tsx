@@ -66,8 +66,8 @@ const DataControl = () => {
 	};
 
 	return (
-		<div className='home__child dataControl__container'>
-			<div className='dataControl__data'>
+		<div className={`home__child dataControl__container`}>
+			<div className={`dataControl__data`}>
 				{parsedData ? (
 					<div className='dataControl__parsedData'>
 						<div className='title'>
