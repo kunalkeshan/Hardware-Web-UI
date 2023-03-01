@@ -95,19 +95,21 @@ const DataControl = () => {
 				)}
 			</div>
 			<div className='dataControl__actions hidden__print'>
-				<select
-					name='modality'
-					value={imageModality.value}
-					id='selectModality'
-					onChange={handleSelectChange}
-					disabled={disableModality}
-				>
-					{modalityOptions.map((modality, index) => (
-						<option value={modality.value} key={index}>
-							{modality.label}
-						</option>
-					))}
-				</select>
+				{!parsedData && (
+					<select
+						name='modality'
+						value={imageModality.value}
+						id='selectModality'
+						onChange={handleSelectChange}
+						disabled={disableModality}
+					>
+						{modalityOptions.map((modality, index) => (
+							<option value={modality.value} key={index}>
+								{modality.label}
+							</option>
+						))}
+					</select>
+				)}
 				{parsedData && (
 					<button id='resetBtn' onClick={handleResetState}>
 						Reset
