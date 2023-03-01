@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.3e6e79ad.css",
-    "main.js": "/static/js/main.96feff7e.js",
+    "main.css": "/static/css/main.c97f5a1c.css",
+    "main.js": "/static/js/main.c1883013.js",
     "static/js/787.c0de9bfb.chunk.js": "/static/js/787.c0de9bfb.chunk.js",
     "static/media/brain-mind-nobg.gif": "/static/media/brain-mind-nobg.6a9b0dea99379f0e85bf.gif",
     "static/media/Raleway-VariableFont_wght.ttf": "/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
@@ -10,12 +10,12 @@
     "static/media/nexus-logo.png": "/static/media/nexus-logo.a7bd6be5183c9bf944ec.png",
     "static/media/execute.png": "/static/media/execute.2e4ece740ae5c4547db0.png",
     "index.html": "/index.html",
-    "main.3e6e79ad.css.map": "/static/css/main.3e6e79ad.css.map",
-    "main.96feff7e.js.map": "/static/js/main.96feff7e.js.map",
+    "main.c97f5a1c.css.map": "/static/css/main.c97f5a1c.css.map",
+    "main.c1883013.js.map": "/static/js/main.c1883013.js.map",
     "787.c0de9bfb.chunk.js.map": "/static/js/787.c0de9bfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.3e6e79ad.css",
-    "static/js/main.96feff7e.js"
+    "static/css/main.c97f5a1c.css",
+    "static/js/main.c1883013.js"
   ]
 }
