@@ -6,6 +6,10 @@
 	border-radius: 8px;
 	border: 2px solid white;
 	padding: 1em 2em;
+	display: flex;
+	flex-direction: column;
+	justify-items: center;
+	align-items: center;
 
 	> * {
 		color: white;
@@ -105,6 +109,7 @@
 
 .imageKit__upload {
 	padding: 2em;
+	margin-top: auto;
 
 	#uploadImageBtn {
 		display: inline-block;
