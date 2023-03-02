@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c97f5a1c.css",
+    "main.css": "/static/css/main.a3283c7c.css",
     "main.js": "/static/js/main.c1883013.js",
     "static/js/787.c0de9bfb.chunk.js": "/static/js/787.c0de9bfb.chunk.js",
     "static/media/brain-mind-nobg.gif": "/static/media/brain-mind-nobg.6a9b0dea99379f0e85bf.gif",
@@ -10,12 +10,12 @@
     "static/media/nexus-logo.png": "/static/media/nexus-logo.a7bd6be5183c9bf944ec.png",
     "static/media/execute.png": "/static/media/execute.2e4ece740ae5c4547db0.png",
     "index.html": "/index.html",
-    "main.c97f5a1c.css.map": "/static/css/main.c97f5a1c.css.map",
+    "main.a3283c7c.css.map": "/static/css/main.a3283c7c.css.map",
     "main.c1883013.js.map": "/static/js/main.c1883013.js.map",
     "787.c0de9bfb.chunk.js.map": "/static/js/787.c0de9bfb.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c97f5a1c.css",
+    "static/css/main.a3283c7c.css",
     "static/js/main.c1883013.js"
   ]
 }
