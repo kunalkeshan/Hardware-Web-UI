@@ -30,6 +30,8 @@ The PYNQ Z-Series is a piece of hardware that will include the model itself. Giv
 
 Given the lack of an interactive UI, it is necessary to expose the GUI operating on the hardware's localhost via tunnelling traffic through Ngork to an external URL.
 
+A Detailed User flow can be found in this document: https://docs.google.com/document/d/1IivIdJVi4lIbQ7dDW5LLaVy5koxrnJvxyAccIjbs0fk/edit?usp=sharing
+
 ## 🚀 Getting Started
 
 ### Prerequisites
