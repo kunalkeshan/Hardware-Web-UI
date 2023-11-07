@@ -65,7 +65,7 @@ function App() {
 				<Loading />
 			) : (
 				<main>
-					{windowSize.width <= 800 || windowSize.height <= 600 ? (
+					{windowSize.width <= 600 || windowSize.height <= 300 ? (
 						<UseDesktopOnly />
 					) : (
 						<HashRouter>
