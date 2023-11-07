@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.a3283c7c.css",
-    "main.js": "/static/js/main.c1883013.js",
+    "main.js": "/static/js/main.d6c251aa.js",
     "static/js/787.c0de9bfb.chunk.js": "/static/js/787.c0de9bfb.chunk.js",
     "static/media/brain-mind-nobg.gif": "/static/media/brain-mind-nobg.6a9b0dea99379f0e85bf.gif",
     "static/media/Raleway-VariableFont_wght.ttf": "/static/media/Raleway-VariableFont_wght.575ec9e676c7a85494bb.ttf",
@@ -11,11 +11,11 @@
     "static/media/execute.png": "/static/media/execute.2e4ece740ae5c4547db0.png",
     "index.html": "/index.html",
     "main.a3283c7c.css.map": "/static/css/main.a3283c7c.css.map",
-    "main.c1883013.js.map": "/static/js/main.c1883013.js.map",
+    "main.d6c251aa.js.map": "/static/js/main.d6c251aa.js.map",
     "787.c0de9bfb.chunk.js.map": "/static/js/787.c0de9bfb.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a3283c7c.css",
-    "static/js/main.c1883013.js"
+    "static/js/main.d6c251aa.js"
   ]
 }
