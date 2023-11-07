@@ -3,7 +3,8 @@ import cv2
 import numpy as np
 import json
 
-model = keras.models.load_model('trained.h5')
+model = keras.models.load_model('trained.h5', compile=False)
+model.compile()
 
 class_name = ('b1', 'b2', 'b3', 'b4', 'b5')
 
