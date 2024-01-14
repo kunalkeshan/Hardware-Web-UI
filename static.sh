@@ -1,3 +1,4 @@
+// The shell script is performing a series of commands:
 cd client
 yarn run build
 rsync -a --delete build/ ../static/

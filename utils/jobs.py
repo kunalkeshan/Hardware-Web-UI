@@ -9,6 +9,10 @@ FIVE_MIN=60*5
 # ONE_DAY=1
 
 def delete_old_uploads():
+    """
+    The function `delete_old_uploads` deletes files in the 'data' directory that are older than one day,
+    along with their corresponding source files, and it runs every five minutes.
+    """
     while True:
         now = math.ceil(time.time()*1000)
         for file in os.listdir('data'):
@@ -23,8 +27,14 @@ def delete_old_uploads():
         time.sleep(FIVE_MIN)
 
 def all_jobs():
+    """
+    The function `all_jobs` calls the `delete_old_uploads` function.
+    """
     delete_old_uploads()
 
 def init():
+    """
+    The `init` function starts a background thread to run all jobs.
+    """
     daemon = Thread(target=all_jobs, daemon=True, name="Run background jobs")
     daemon.start()

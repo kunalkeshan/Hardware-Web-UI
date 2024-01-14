@@ -1,5 +1,7 @@
 #! /usr/bin/sh
 
+// This shell script prompts the user to select whether they want to install dependencies for a
+// production environment or a development environment.
 read -p "Install dependencies for, 'prod' or 'dev' - " env
 
 if [[ "$env" == "prod" ]]; then
